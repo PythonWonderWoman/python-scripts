@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+#author: python.wonder.woman@gmail.com
+
 #calculator BMI with input from the console
 #BMI pattern = weight/wzrost^2
 
