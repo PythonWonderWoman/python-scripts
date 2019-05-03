@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 #author: python.wonder.woman@gmail.com
 #wersja PL

@@ -1,6 +1,7 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 #author: python.wonder.woman@gmail.com
+#wersja EN
 
 #calculator BMI with input from the console
 #BMI pattern = weight/height^2

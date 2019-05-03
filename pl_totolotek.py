@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 #author: python.wonder.woman@gmail.com
+#wersja PL
 
 #######--------------------------NOTES FROM AUTHOR-----------------------------------#######
 #      Celem tego skryptu jest mozliwosc odgadniecia liczby z zakresu 1-49 przez uzytkownika.
