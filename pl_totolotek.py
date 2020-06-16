@@ -19,7 +19,7 @@ import random
 liczba = random.randint(1, 49)
 twoje_liczby = []
 
-print(liczba)
+# print(liczba)
 for i in range(6):
     print("Proba: ", i + 1)
     uzytkownik_zgaduje = input("Zgadnij liczbę w przedziale od 1 do 49\n")
