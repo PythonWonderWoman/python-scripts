@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 #author: python.wonder.woman@gmail.com
-#wersja EN
+# EN version
 
 #calculator BMI with input from the console
 #BMI pattern = weight/height^2
@@ -9,7 +9,7 @@
 print("Let us know how is your weight:\nYou can also use decimal value: 50.6 (kg):")
 weight = float(input()) #kg
 
-print("\nHow tall are you?\nUse the following format, for example: 1.64 (cm):")
+print("\nHow tall are you (in cm)?\nUse the following format, for example: 1.64 (cm):")
 height = float(input()) #cm
 
 #calculate BMI
