@@ -6,6 +6,7 @@
 #######--------------------------NOTES FROM AUTHOR-----------------------------------#######
 #      Celem tego skryptu jest mozliwosc odgadniecia liczby z zakresu 1-49 przez uzytkownika.
 #      Skrypt przewiduje, gdy uzytkownik wpisal zbyt niska lub zbyt wysoka dozwolona wartosc.
+#      Użytkownik ma 6 szans aby odgadnac te wlasciwa liczbe.
 #      Wybory uzytkownika zapisywane sa do listy i nastepnie wyswietlone.
 #      Skrypt nie ostrzega uzytkownika, gdy ten ponownie wybral te sama liczbe.
 #      To tylko cwiczenie, ktore pozwala mi utrwalic wiedze :)
@@ -18,6 +19,7 @@ import random
 liczba = random.randint(1, 49)
 twoje_liczby = []
 
+print(liczba)
 for i in range(6):
     print("Proba: ", i + 1)
     uzytkownik_zgaduje = input("Zgadnij liczbę w przedziale od 1 do 49\n")
