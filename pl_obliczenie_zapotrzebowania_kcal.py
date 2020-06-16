@@ -23,7 +23,12 @@ age = int(input()) #years
 print("What is your sex: F/M")
 sex = str(input())
 
-query = "\n\nEnter the below value if true\n1. Sitting work, no physical activity - 1\n2. Non-physical work, not very active lifestyle - 2\n3. Light physical work, regular exercises 3-4 times a week - 3\n4. Physical work, regular exercises more that 5 times a week - 4\n5. Physical hard work, regular exercises every day - 5"
+query = """\n\nEnter the below value if true\n
+1. Sitting work, no physical activity - 1\n
+2. Non-physical work, not very active lifestyle - 2\n
+3. Light physical work, regular exercises 3-4 times a week - 3\n
+4. Physical work, regular exercises more that 5 times a week - 4\n
+5. Physical hard work, regular exercises every day - 5"""
 
 if sex == "F":
     PPM = 665.09 + (9.56 * weight) + (1.85 * height) - (4.68 * age)
