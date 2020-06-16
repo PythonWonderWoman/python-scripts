@@ -1,14 +1,17 @@
 #! /usr/bin/env python3
 
-#author: python.wonder.woman@gmail.com
-#wersja PL
+'''
+author: python.wonder.woman@gmail.com
+wersja PL
 
-#obliczenie zapotrzebowania kalorycznego (PPM) wg wzoru Harrisa Benedicta, dla kobiet i mezczyzn
+obliczenie zapotrzebowania kalorycznego (PPM) wg wzoru Harrisa Benedicta, dla kobiet i mezczyzn
+PPM_kobiety = 665.09 + 9.56 x masa ciała + 1.85 x wzrost w cm – 4.68 x wiek
+PPM_mezczyzni = 66.47 + 13.75 x masa ciała + 5 x wzrost w cm – 6.75 x wiek
+'''
 
-#PPM_kobiety = 665.09 + 9.56 x masa ciała + 1.85 x wzrost w cm – 4.68 x wiek
-#PPM_mezczyzni = 66.47 + 13.75 x masa ciała + 5 x wzrost w cm – 6.75 x wiek
 
-print("Let us know how is your weight:\nYou can also use decimal value: 50.6 (kg):")
+
+print("Let us know how is your weight (in kg):\nYou can also use decimal value: 50.6 (kg):")
 weight = float(input()) #kg
 
 print("How tall are you?\nUse the following format, for example: 1.64 (cm):")
