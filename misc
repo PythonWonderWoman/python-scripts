@@ -1,2 +1,5 @@
+linux commands
+
 #wersja pythona
-python3 -v
+python -V
+python3 -V
