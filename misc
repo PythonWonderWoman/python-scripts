@@ -1,5 +1,12 @@
 linux commands
 
-#wersja pythona
+# zainstaluj python IDLE
+pakiet python idle-pythonX.Y
+sudo apt install idle-python3.10
+
+# dostepne do instalacji wersje srodowisk IDLE
+apt search idle-python
+
+# wersja pythona
 python -V
 python3 -V
